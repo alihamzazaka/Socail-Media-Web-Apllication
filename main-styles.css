@@ -1,0 +1,248 @@
+body {
+  background-color: #f8f9fd;
+}
+.container_m {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.fa-facebook-messenger {
+  color: #d3e1ff;
+}
+
+.card_pic {
+  width: 80px;
+  height: 80px;
+}
+.card {
+  background-color: #f5f9fc;
+}
+
+.con_heading {
+  font-size: 16px;
+}
+
+.alert-num {
+  border-radius: 50%;
+  font-size: 14px;
+  background-color: #eaeff0;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+}
+.fa-angle-up {
+  font-size: 12px;
+}
+.img-icon {
+  width: 45px;
+  height: 45px;
+}
+.chats-card {
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+.chat-name-log {
+  font-size: 15px;
+  color: #a3a3a4;
+  font-weight: 500;
+}
+.chats-card:hover {
+  background-color: #f2f6fc;
+  border-radius: 0.5rem;
+  color: #18233b;
+}
+.chats-card:hover .chat-name-log {
+  color: #18233b;
+}
+
+.chats-card .notification_number {
+  background-color: #ff5857;
+  color: white;
+}
+
+.fa-clock {
+  color: #2565ea;
+}
+.fa-calendar-xmark {
+  color: #fa572c;
+}
+.fa-calendar-check {
+  color: #8676c3;
+}
+.fa-user-group {
+  color: #1fbd9d;
+}
+.icon-style {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.size_font {
+  font-size: 20px;
+}
+.per-section {
+  background-color: #e0e5f0;
+  border-radius: 15px;
+  padding: 0.7rem 10px;
+  margin-bottom: 0.5rem;
+}
+
+.message {
+  padding: 10px;
+  padding-bottom: 0;
+  height: 45px;
+  margin-right: 5px;
+  color: #ffffff;
+  background-color: #18233b;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.message-link {
+  padding: 10px;
+  padding-bottom: 0;
+  height: 70px;
+  margin-right: 5px;
+  color: #ffffff;
+  background-color: #18233b;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.message > p,
+.message-reply > p {
+  font-size: 15px;
+  padding-bottom: 0;
+}
+
+.message-reply {
+  padding: 15px;
+  padding-bottom: 0;
+  margin-right: 0.5rem;
+  color: #70727a;
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+.text-time {
+  font-weight: 400;
+  font-size: 12px;
+  color: #8192a5;
+}
+.icon-status {
+  position: relative;
+}
+.status {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgb(0, 253, 4);
+  border: 2px solid white;
+  margin-top:-10px ;
+  left: 32px;
+  position: relative;
+}
+.chat-area {
+  background-color: #f2f6fc;
+  margin: 1rem 0;
+  border-radius: 20px;
+  padding: 15px;
+}
+.fa-location-arrow {
+  transform: rotate(45deg);
+}
+.fa-paperclip {
+  color: #9698a6;
+  font-size: x-large;
+  padding-top: 10px;
+  padding-right: 13px;
+}
+.new-message {
+  border: 1px solid #eff1f2;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 350px;
+}
+.new-message > i {
+  color: #f7ba2e;
+  font-size: 15px;
+}
+.new-message > input:focus {
+  outline: none;
+}
+.new-message-box {
+  background-color: #fbfdff;
+  padding: 10px;
+  border-radius: 10px;
+
+  margin-bottom: 0;
+}
+.send-btn {
+  color: white;
+  background-color: #014efa;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.right-section {
+  background-color: #c2d7fe;
+  text-align: center;
+  padding-top: 20px;
+  align-self: center;
+}
+.right-section {
+  color: #3e5676;
+}
+.archive-btn {
+  color: #014efa;
+  border: 1px solid #014efa;
+  padding: 10px 10px;
+  width: 160px;
+  align-self: center;
+  background-color: #ffffff;
+}
+.icon-style > i {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+  .new-message-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .send-btn {
+    margin-top: 10px;
+  }
+}
+
+.weekdays-bar {
+  width: 10px;
+  background-color: #c6c7c8;
+  border-radius: 10px;
+}
+.circle {
+  height: 0.35rem;
+  width: 0.35rem;
+  border-radius: 50%;
+  background-color: #c6c7c8;
+}
+.selected {
+  background-color: #004ffa;
+}
+.btn-copy {
+    width: 150px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 5px;
+  background-color: #014efa;
+  color: white;
+
+}
+
+.client-box {
+  background-color: #f0f3f9;
+}
+
+.fa-paper-plane {
+  padding: 10px;
+}

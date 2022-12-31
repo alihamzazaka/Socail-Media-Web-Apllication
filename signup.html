@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn</title>
+    <link rel="stylesheet" href="styles.css" />
+        <script
+      src="https://kit.fontawesome.com/95077e30db.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      
+      <div class="container-signup ">
+      <i class="fa-brands fa-intercom  fa-5x "></i>
+      <h2 class="login-h2">Sign Up</h2>
+      <form role="form" onsubmit="signUp(event);" autocomplete="off">
+
+          <input
+          class="input-1"
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="First Name"
+            required
+          />
+ 
+
+          <input
+          class="input-1"
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Last Name"
+            required
+          />
+
+          <input
+          class="input-1"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+            required
+          />
+
+          <input
+          class="input-1"
+            type="password"
+            name="pwd"
+            id="pwd"
+            placeholder="Password"
+            required
+          />
+
+          <button type="submit" class="button">Sign Up</button>
+
+      </form>
+      <p style="margin-top:10px ;"> Already have account? <a href="/signin.html"  style="font-size: 20px">Log In</a></p>
+    <p style="margin-top: 10px">Or SignUp with</p>
+        <div class="social">
+          <i class="fa-brands fa-instagram fa-2x loginwith"></i>
+          <i class="fa-brands fa-facebook fa-2x loginwith"></i>
+          <i class="fa-brands fa-google fa-2x loginwith"></i>
+          <i class="fa-brands fa-twitter fa-2x loginwith"></i>
+        </div>
+    </div>
+    </main>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>

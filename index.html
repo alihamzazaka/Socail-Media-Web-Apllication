@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media (Ali Hamza)</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/95077e30db.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="m-4">
+        <nav
+          class="navbar navbar-expand-sm navbar-light navbr align-content-center"
+        >
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+              <i class="fa-brands fa-intercom fa-2x logo1"></i
+            ></a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li>
+                  <input
+                    type="text"
+                    class="search border-0"
+                    placeholder="Search"
+                    name="search"
+                  />
+                </li>
+                <li style="padding-left: 5px; padding-top: 3px">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+              </ul>
+              <ul class="nav navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    style="color: white"
+                    >User</a
+                  >
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a href="/profile.html" class="dropdown-item">Profile</a>
+                    <a href="#" class="dropdown-item">Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="/signin.html" class="dropdown-item">Logout</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3 container-left border-0">
+          <div class="left-icons">
+            <div class="owner">
+              <i class="fa-solid fa-newspaper fa-2x"></i>
+              <p class="flname1">NewsFeed</p>
+            </div>
+            <div class="owner">
+              <i class="fa-brands fa-wpexplorer fa-2x"></i>
+              <p class="flname1">Explore</p>
+            </div>
+            <div class="owner">
+              <i class="fa-solid fa-shop fa-2x"></i>
+              <p class="flname1">MarketPlace</p>
+            </div>
+            <div class="owner">
+              <i class="fa-regular fa-floppy-disk fa-2x"></i>
+              <p class="flname1">Saved</p>
+            </div>
+            <div class="owner">
+              <i class="fa-solid fa-people-group fa-2x"></i>
+              <p class="flname1">Groups</p>
+            </div>
+          </div>
+          <h5 style="margin-left: 20px; margin-top: 20px">Search by tags</h5>
+          <div class="tags"></div>
+        </div>
+        <div class="col-6 overflow-auto container-middle scrollbar">
+          <div class="comment"></div>
+          <div>
+            <h5>Stories</h5>
+            <div class="story">
+              <div class="story-div">
+                <img
+                  src="./assests/face1.jpg"
+                  alt="face1"
+                  class="story-face rounded-circle"
+                />
+                <p style="margin-left: 19px">Kai</p>
+              </div>
+              <div class="story-div">
+                <img
+                  src="./assests/face2.jpg"
+                  alt="face2"
+                  class="story-face rounded-circle"
+                />
+                <p style="margin-left: 12px">Zion</p>
+              </div>
+              <div class="story-div">
+                <img
+                  src="./assests/face3.jpg"
+                  alt="face3"
+                  class="story-face rounded-circle"
+                />
+                <p style="margin-left: 6px">Maeve</p>
+              </div>
+              <div class="story-div">
+                <img
+                  src="./assests/face4.jpg"
+                  alt="face1"
+                  class="story-face rounded-circle"
+                />
+                <p style="margin-left: 12px">Luca</p>
+              </div>
+              <div class="story-div">
+                <img
+                  src="./assests/face5.jpg"
+                  alt="face1"
+                  class="story-face rounded-circle"
+                />
+                <p style="margin-left: 8px">Eliana</p>
+              </div>
+              <div class="story-div">
+                <img
+                  src="./assests/face6.jpg"
+                  alt="face1"
+                  class="story-face rounded-circle"
+                />
+                <p style="margin-left: 5px">Jayden</p>
+              </div>
+              <div class="story-div">
+                <img
+                  src="./assests/face7.jpg"
+                  alt="face1"
+                  class="story-face rounded-circle"
+                />
+                <p>Carolina</p>
+              </div>
+              <div class="story-div">
+                <img
+                  src="./assests/face8.jpg"
+                  alt="face1"
+                  class="story-face rounded-circle"
+                />
+                <p style="margin-left: 4px">Aaliyah</p>
+              </div>
+              <div class="story-div">
+                <img
+                  src="./assests/face4.jpg"
+                  alt="face1"
+                  class="story-face rounded-circle"
+                />
+                <p style="margin-left: 15px">Ezra</p>
+              </div>
+            </div>
+          </div>
+          <div class="post"></div>
+        </div>
+
+        <div class="col-sm-3 container-right border-0">
+          <h5 class="friend-top fa-light">Friends</h5>
+          <div>
+            <h5 style="margin-left: 50px; margin-bottom: 30px">
+              Active Conversations<i
+                class="fa-solid fa-arrow-down"
+                style="margin-left: 50px"
+              ></i>
+            </h5>
+          </div>
+          <div class="friend"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./tags.js"></script>
+    <script type="text/javascript" src="./post.js"></script>
+    <script type="text/javascript" src="./friends.js"></script>
+    <script type="text/javascript" src="./comment.js"></script>
+  </body>
+</html>
